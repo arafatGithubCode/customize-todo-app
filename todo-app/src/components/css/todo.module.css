@@ -1,0 +1,29 @@
+.todo {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 0.4rem;
+    margin: 0.7rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo h3 {
+    padding: 0.5rem 0 1rem;
+}
+.todo p {
+    padding-bottom: 0.3rem;
+    opacity: 0.5;
+    transition: all 0.4s ease;
+}
+.todo:hover p {
+    opacity: 0.7;
+}
+.todo button {
+    outline: none;
+    border: none;
+    color: red;
+    background-color: transparent;
+}
+.todo button:hover {
+    cursor: pointer;
+}
